@@ -1,0 +1,22 @@
+.NextPrevious {
+  background-color: black;
+  color: white;
+  padding: 50px 10%;
+  .Text {
+    display: flex;
+    justify-content: space-between;
+    h2 {
+      font-family: "Ogg";
+      font-weight: 100;
+      font-size: 255%;
+      text-decoration: underline;
+    }
+  }
+
+  h5 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    padding-top: 5%;
+  }
+}

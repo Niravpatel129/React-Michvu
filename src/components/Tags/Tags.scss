@@ -1,0 +1,39 @@
+.Tags {
+  display: block;
+  background-color: black;
+  color: white;
+  font-weight: normal;
+
+  @media only screen and (min-width: 900px) {
+    display: flex;
+  }
+  justify-content: space-between;
+  padding: 50px 10%;
+
+  .quote {
+    align-self: center;
+    padding-bottom: 50px;
+    font-size: 27px;
+    font-weight: normal;
+
+    @media only screen and (min-width: 900px) {
+      width: 40%;
+    }
+  }
+  .types {
+    @media only screen and (min-width: 900px) {
+      width: 40%;
+    }
+  }
+  .type {
+    border-top: 1px solid #979797;
+  }
+  h3 {
+    padding: 20px 0;
+    font-size: 14px;
+  }
+  p {
+    padding-bottom: 30px;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,33 @@
+.Introduction {
+  background-color: black;
+  display: flex;
+  padding: 10%;
+  padding-bottom: 5%;
+
+  .titleBlock {
+    h1 {
+      padding-top: 50%;
+      position: relative;
+      z-index: 1;
+      color: white;
+      writing-mode: tb-rl;
+      transform: rotate(-180deg);
+
+      font-size: 7.5em;
+      font-weight: 100;
+    }
+    img {
+      position: absolute;
+      top: 10%;
+      left: 19%;
+      height: 65%;
+      width: auto;
+      transform: rotate(0deg);
+      @media only screen and (min-width: 900px) {
+        transform: rotate(-30deg);
+        top: 27%;
+        left: 15%;
+      }
+    }
+  }
+}

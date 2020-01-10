@@ -1,0 +1,25 @@
+.TitleParagraph {
+  background-color: black;
+  color: white;
+  padding: 50px 10%;
+
+  @media only screen and (min-width: 900px) {
+    display: flex;
+  }
+  justify-content: space-between;
+
+  h3 {
+    border-top: 1px solid #979797;
+    padding: 10px 0;
+    color: #858585;
+  }
+  .paragraph {
+    @media only screen and (min-width: 900px) {
+      width: 40%;
+    }
+  }
+
+  .paragraph:first-child {
+    padding-bottom: 50px;
+  }
+}
