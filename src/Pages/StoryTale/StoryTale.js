@@ -6,7 +6,6 @@ import Tags from "../../components/Tags/Tags";
 import Video from "../../components/Video/Video";
 import TitleParagraph from "../../components/TitleParagraph/TitleParagraph";
 import TitleImage from "../../components/TitleImage/TitleImage";
-import Image from "../../components/Image/Image";
 import NextPrevious from "../../components/NextPrevious/NextPrevious";
 
 function StoryTale() {
@@ -29,7 +28,7 @@ function StoryTale() {
         tag1title="How"
         tag1titlep={
           <>
-            The experience takes place between a parent and their child on a
+            }The experience takes place between a parent and their child on a
             tablet. The parent or child selects a story they want to read from
             the story selection page.
             <br></br>
@@ -48,8 +47,28 @@ function StoryTale() {
       <TitleParagraph
         title1="Voice Recognition"
         title2="Augmented Reality (AR)"
-        para1="Allows for the parents to be apart of the story experience with their child. Dictation can also help kids who struggle with reading and writing."
-        para2="There is a narrative potential in using AR to tell stories. Rather than having stories take shape in a book, the story is instead placed in their own space."
+        para1={
+          <>
+            Allows for the parents to be apart of the story experience with
+            their child. Dictation can also help kids who struggle with reading
+            and writing.
+            <br></br>
+            <br></br>
+            Below is an example of how voice recogntion is introduced to
+            children.
+          </>
+        }
+        para2={
+          <>
+            There is a narrative potential in using AR to tell stories. Rather
+            than having stories take shape in a book, the story is instead
+            placed in their own space.
+            <br></br>
+            <br></br>
+            This creates a more realistic and seamless experience by using the
+            lens of the device.
+          </>
+        }
         src1=""
         src2=""
       />
@@ -64,8 +83,6 @@ function StoryTale() {
       />
       <TitleImage title="" src="https://i.imgur.com/roYINFS.png" />
       <TitleImage title="" src="https://i.imgur.com/t6PHfSS.png" />
-
-      <Image src="https://i.imgur.com/N22JYTh.png" />
       <NextPrevious prev="/storytale" next="/recreation" />
     </React.Fragment>
   );
