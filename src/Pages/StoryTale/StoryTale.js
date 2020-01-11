@@ -15,7 +15,7 @@ function StoryTale() {
       <Introduction title="Storytale" src="https://i.imgur.com/qbEUrTp.png" />
       <Tags
         quote="An interactive and accessible AR experience that actually deepens our engagement with stories."
-        tag1title="Type HELLO"
+        tag1title="Type"
         tag1titlep="UI/UX, Product, Interaction, Website, Augmented Reality, Voice Recognition"
         tag2title="Tools"
         tag2titlep="Sketch, Cinema4D, Mixamo,  8thWall, Voice Recognition API, After Effects"
@@ -28,7 +28,7 @@ function StoryTale() {
         tag1title="How"
         tag1titlep={
           <>
-            }The experience takes place between a parent and their child on a
+            The experience takes place between a parent and their child on a
             tablet. The parent or child selects a story they want to read from
             the story selection page.
             <br></br>
@@ -83,7 +83,7 @@ function StoryTale() {
       />
       <TitleImage title="" src="https://i.imgur.com/roYINFS.png" />
       <TitleImage title="" src="https://i.imgur.com/t6PHfSS.png" />
-      <NextPrevious prev="/storytale" next="/recreation" />
+      <NextPrevious prev="/exploration" next="/recreation" />
     </React.Fragment>
   );
 }
