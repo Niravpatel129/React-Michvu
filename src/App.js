@@ -1,24 +1,13 @@
 import React from "react";
-import NextPrevious from "./components/NextPrevious/NextPrevious";
-import Image from "./components/Image/Image";
-import TitleImage from "./components/TitleImage/TitleImage";
-import TitleParagraph from "./components/TitleParagraph/TitleParagraph";
-import Video from "./components/Video/Video";
-import Introduction from "./components/Introduction/Introduction";
-import Tags from "./components/Tags/Tags";
-import Navbar from "./components/Navbar/Navbar";
+import { BrowserRouter, Route } from "react-router-dom";
+import HomePage from "./Pages/HomePage/HomePage";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Introduction />
-      <Tags />
-      <Video />
-      <TitleParagraph />
-      <TitleImage />
-      <Image />
-      <NextPrevious />
+      <BrowserRouter>
+        <Route path="/" exact component={HomePage} />
+      </BrowserRouter>
     </div>
   );
 }

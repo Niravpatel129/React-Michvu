@@ -1,0 +1,39 @@
+.HomeAbout {
+  display: flex;
+  color: white;
+  font-family: "Neue Haas Unica W01 Regular";
+  background-color: black;
+  justify-content: center;
+  padding: 5% 0;
+  padding-top: 0;
+  p {
+    @media screen and (max-width: 1680px) {
+      width: 77%;
+      font-size: 37px;
+    }
+    width: 88%;
+    font-size: 30px;
+
+    @media screen and (min-width: 421px) and (max-width: 1200px) {
+      font-size: 27px;
+    }
+  }
+  .underlined {
+    @media screen and (min-width: 421px) and (max-width: 1200px) {
+      font-size: 27px;
+    }
+    text-decoration: underline;
+    font-family: "Ogg";
+  }
+  .small {
+    font-size: 19px;
+  }
+
+  a {
+    color: white;
+  }
+
+  a:hover {
+    opacity: 0.5;
+  }
+}

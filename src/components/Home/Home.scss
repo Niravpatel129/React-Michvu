@@ -1,0 +1,62 @@
+.Home {
+  background-color: black;
+  padding: 3% 0;
+  padding-bottom: 7%;
+  // height: 100vh;
+  h1 {
+    @media screen and (max-width: 1680px) {
+      margin-left: 11%;
+    }
+    @media screen and (max-width: 1500px) {
+      margin-left: 11%;
+      width: 20%;
+      margin-left: 23%;
+    }
+    @media screen and (min-width: 1500px) {
+      // big desktop
+      color: white;
+      width: 20%;
+      line-height: 130px;
+      font-size: 690%;
+      margin-left: 26%;
+    }
+    color: white;
+    font-weight: 210;
+    font-size: 550%;
+    position: relative;
+    width: 30%;
+    margin-left: 21%;
+    display: inline-block;
+    font-family: "ogg";
+    line-height: 100px;
+    margin-top: 3.2%;
+  }
+
+  .HomeImage {
+    @media screen and (max-width: 1680px) {
+      left: 30%;
+      height: 105%;
+    }
+
+    @media screen and (min-width: 421px) and (max-width: 1200px) {
+      max-height: 75%;
+    }
+
+    display: flex;
+    position: absolute;
+    width: 40%;
+    z-index: 0;
+    left: 26%;
+    height: 95%;
+  }
+
+  .logo {
+    @media screen and (min-width: 421px) and (max-width: 1200px) {
+      display: none;
+    }
+    width: 100px;
+    position: fixed;
+    bottom: 3%;
+    right: 5%;
+  }
+}
