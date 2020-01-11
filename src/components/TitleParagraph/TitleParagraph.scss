@@ -3,6 +3,12 @@
   color: white;
   padding: 50px 10%;
 
+  img {
+    padding-top: 40px;
+    width: 100%;
+    height: auto;
+  }
+
   @media only screen and (min-width: 900px) {
     display: flex;
   }
