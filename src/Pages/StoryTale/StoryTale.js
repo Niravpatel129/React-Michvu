@@ -27,11 +27,23 @@ function StoryTale() {
       <Tags
         quote="Storytelling between parent and child is a fundamental human experience that often carry a deeper message that the child can reflect on later in life."
         tag1title="How"
-        tag1titlep="The experience takes place between a parent and their child on a tablet. The parent or child selects a story they want to read from the story selection page.
-
-      The app keeps track of what’s being read and listens for key words. When a pre-specified keyword is said (e.g. “cow”), a relevant 3D model appears in AR to which the users will be able to interact with.
-
-      Parents or children can then have simple interactions with the 3D model. For example, they can tap a cow to hear it “moo”."
+        tag1titlep={
+          <>
+            The experience takes place between a parent and their child on a
+            tablet. The parent or child selects a story they want to read from
+            the story selection page.
+            <br></br>
+            <br></br>
+            The app keeps track of what’s being read and listens for key words.
+            When a pre-specified keyword is said (e.g. “cow”), a relevant 3D
+            model appears in AR to which the users will be able to interact
+            with.
+            <br></br>
+            <br></br>
+            Parents or children can then have simple interactions with the 3D
+            model. For example, they can tap a cow to hear it “moo”.
+          </>
+        }
       />
       <TitleParagraph
         title1="Voice Recognition"

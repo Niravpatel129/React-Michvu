@@ -10,7 +10,6 @@ function Tags({
   tag3title,
   tag3titlep
 }) {
-  console.log(tag2title);
   return (
     <section className="Tags">
       <p className="quote">
