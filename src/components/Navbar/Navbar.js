@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <section className="Navbar">
+    <section className="Navbar" id="Navbar">
       <Link style={{ color: "white", textDecoration: "none" }} to="/">
         <h7>Michelle Vu</h7>
       </Link>

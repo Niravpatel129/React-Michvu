@@ -19,8 +19,12 @@
     text-transform: uppercase;
     padding-top: 5%;
   }
+  a {
+    text-decoration: none;
+  }
 
   a:visited {
     color: white;
+    text-decoration: none;
   }
 }

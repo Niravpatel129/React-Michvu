@@ -14,7 +14,9 @@ function NextPrevious({ next, prev }) {
           <h2>Previous</h2>
         </Link>
       </div>
-      <h5>Back to top</h5>
+      <a href="#Navbar">
+        <h5>Back to top</h5>
+      </a>
     </section>
   );
 }
