@@ -2,12 +2,12 @@ import React from "react";
 import Image from "./Wolf.png";
 import "./Introduction.scss";
 
-function Introduction() {
+function Introduction({ title, image }) {
   return (
     <section className="Introduction">
       <div className="titleBlock">
-        <h1>StoryTale</h1>
-        <img alt="etc" src={Image}></img>
+        <h1> {title || "StoryTale"}</h1>
+        <img alt="etc" src={image || Image}></img>
       </div>
     </section>
   );

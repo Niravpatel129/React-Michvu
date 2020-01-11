@@ -2,10 +2,10 @@ import React from "react";
 import "./Image.scss";
 import image from "./StoryTale-1.png";
 
-function Image() {
+function Image({ src }) {
   return (
     <section className="Image">
-      <img alt={image} src={image}></img>
+      <img alt={src || image} src={src || image}></img>
     </section>
   );
 }

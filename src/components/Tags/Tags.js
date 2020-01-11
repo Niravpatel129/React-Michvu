@@ -1,37 +1,49 @@
 import React from "react";
 import "./Tags.scss";
 
-function Tags() {
+function Tags({
+  quote,
+  tag1title,
+  tag1titlep,
+  tag2title,
+  tag2titlep,
+  tag3title,
+  tag3titlep
+}) {
   return (
     <section className="Tags">
       <p className="quote">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
+        {quote ||
+          `Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s
+        since the 1500s`}
       </p>
       <div className="types">
         <div>
-          <h3 className="type">Type</h3>
+          <h3 className="type">{tag1title || "Type"}</h3>
           <p>
-            orem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s,{" "}
+            {tag1titlep ||
+              `Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s`}
           </p>
         </div>
         <div>
-          <h3 className="type">Type2</h3>
+          <h3 className="type">{tag2title || "Type"}</h3>
           <p>
-            orem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s,{" "}
+            {tag2titlep ||
+              `Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s`}
           </p>
         </div>
         <div>
-          <h3 className="type">Type3</h3>
+          <h3 className="type">{tag3title || "Type"}</h3>
           <p>
-            orem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s,{" "}
+            {tag3titlep ||
+              `Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s`}
           </p>
         </div>
       </div>
