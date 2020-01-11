@@ -9,7 +9,7 @@ function TitleImage({ title, src }) {
       <section className="TitleImage">
         {title && <h3>{title}</h3>}
         {/* <img alt={src || image} src={src || image}></img> */}
-        <ModalImage small={src} large={src} />
+        <ModalImage small={src} large={src} hideDownload hideZoom />
       </section>
     </ScrollAnimation>
   );
