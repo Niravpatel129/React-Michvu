@@ -105,12 +105,14 @@ on the recreation site such as the information on their classes - schedules, how
         }
       />
       <TitleImage title="Branding" src="https://i.imgur.com/LfgwyBu.png" />
-      <TitleImage title="Branding" src="__" />
-      (MOBILE 2 images)
       <TitleImage
-        title="Desktop"
-        src="https://im6.ezgif.com/tmp/ezgif-6-aad327f663e7.gif"
+        title="Branding"
+        src="https://i.imgur.com/LfgwyBu.png"
+        video
       />
+      <TitleImage title="Branding" src="" />
+      (MOBILE 2 images)
+      <TitleImage title="Desktop" src="https://i.imgur.com/sV3i0FS.mp4" />
       <TitleImage title="" src="https://i.imgur.com/IykAHRp.png" />
       <TitleImage
         title=""
