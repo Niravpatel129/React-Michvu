@@ -22,6 +22,24 @@ function StoryTale() {
         tag3title="Team Members"
         tag3titlep="Frederick Boyd, Alexie Leroux, Rawa Qadir"
       />
+      <TitleParagraph
+        title1="Opportunities"
+        title2="Collaboration"
+        para1={
+          <>
+            Building an experience that blends analog and digital in a clever
+            and meaningful way.
+          </>
+        }
+        para2={
+          <>
+            Generate a product that encourages families to better connect with
+            each other.
+          </>
+        }
+        src1=""
+        src2=""
+      />
       <Video src="https://player.vimeo.com/video/355413664" />
       <Tags
         quote="Storytelling between parent and child is a fundamental human experience that often carry a deeper message that the child can reflect on later in life."
@@ -76,6 +94,7 @@ function StoryTale() {
       <TitleImage title="Branding" src="https://i.imgur.com/BBhiwTj.png" />
       <TitleImage title="" src="https://i.imgur.com/JtlC5lF.png" />
       <TitleImage title="Visual Design" src="https://i.imgur.com/N22JYTh.png" />
+
       <Video src="https://player.vimeo.com/video/384106368" />
       <TitleImage
         title="3D Modelling / Character Design / Scene Layout"

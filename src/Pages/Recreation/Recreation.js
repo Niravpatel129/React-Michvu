@@ -6,6 +6,7 @@ import Tags from "../../components/Tags/Tags";
 import TitleParagraph from "../../components/TitleParagraph/TitleParagraph";
 import TitleImage from "../../components/TitleImage/TitleImage";
 import NextPrevious from "../../components/NextPrevious/NextPrevious";
+import TitleVideo from "../../components/TitleVideo/TitleVideo";
 
 function Recreation() {
   return (
@@ -85,7 +86,7 @@ function Recreation() {
         src="https://i.imgur.com/ZtqD4d9.png"
       />
       <Tags
-        quote="I couldn’t understand anything 
+        quote="I couldn’t understand anything
 on the recreation site such as the information on their classes - schedules, how much it cost, any of that - and I gave up on that and decided to go to the YMCA instead. - Interviewee"
         tag1title="Search Feature"
         tag1titlep={
@@ -105,19 +106,14 @@ on the recreation site such as the information on their classes - schedules, how
         }
       />
       <TitleImage title="Branding" src="https://i.imgur.com/LfgwyBu.png" />
-      <TitleImage
-        title="Branding"
-        src="https://i.imgur.com/LfgwyBu.png"
-        video
+      <TitleVideo
+        title="Mobile"
+        src1="https://i.imgur.com/QOBfmYq.mp4"
+        src2="https://i.imgur.com/kGadxyO.mp4"
       />
-      <TitleImage title="Branding" src="" />
-      (MOBILE 2 images)
-      <TitleImage title="Desktop" src="https://i.imgur.com/sV3i0FS.mp4" />
+      <TitleImage title="Desktop" video="https://i.imgur.com/oKoMvie.mp4" />
       <TitleImage title="" src="https://i.imgur.com/IykAHRp.png" />
-      <TitleImage
-        title=""
-        src="https://im6.ezgif.com/tmp/ezgif-6-ac074ef9ba28.gif"
-      />
+      <TitleImage title="" src="https://i.imgur.com/7Hk8Dg3.jpg" />
       <NextPrevious prev="/storytale" next="/recreation" />
     </React.Fragment>
   );

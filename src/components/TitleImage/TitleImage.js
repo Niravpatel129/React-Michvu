@@ -14,7 +14,7 @@ function TitleImage({ title, src, video }) {
           </video>
         )}
         {/* <img alt={src || image} src={src || image}></img> */}
-        <ModalImage small={src} large={src} hideDownload hideZoom />
+        {src && <ModalImage small={src} large={src} hideDownload hideZoom />}
       </section>
     </ScrollAnimation>
   );
