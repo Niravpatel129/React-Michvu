@@ -8,6 +8,7 @@ import Recreation from "./Pages/Recreation/Recreation";
 import ScrollToTop from "react-router-scroll-top";
 import Explore from "./Pages/Explore/Explore";
 
+import "./App.scss";
 function App() {
   return (
     <div className="App">

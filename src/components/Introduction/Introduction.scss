@@ -20,8 +20,9 @@
       position: absolute;
       top: 10%;
       left: 19%;
-      height: 65%;
-      width: auto;
+      // height: 65%;
+      // width: 100vw;
+      max-width: 65%;
       transform: rotate(0deg);
       @media only screen and (min-width: 900px) {
         transform: rotate(-30deg);
