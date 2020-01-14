@@ -18,12 +18,11 @@ function Tags({
   const h3Ref3 = useRef(null);
 
   useEffect(() => {
-    if (noborder) {
+    if (noborder === true) {
       h3Ref1.current.style.border = "none";
       h3Ref2.current.style.border = "none";
-      // h3Ref3.current.style.border = "none";
     }
-  }, []);
+  }, [noborder]);
   return (
     <ScrollAnimation animateIn="fadeIn">
       <section className="Tags" id={id}>

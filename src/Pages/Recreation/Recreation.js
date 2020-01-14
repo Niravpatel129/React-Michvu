@@ -112,7 +112,7 @@ on the recreation site such as the information on their classes - schedules, how
       <TitleImage title="Desktop" video="https://i.imgur.com/oKoMvie.mp4" />
       <TitleImage title="" src="https://i.imgur.com/IykAHRp.png" />
       <TitleImage title="" src="https://i.imgur.com/7Hk8Dg3.jpg" />
-      <NextPrevious prev="/storytale" next="/recreation" />
+      <NextPrevious prev="/storytale" next="/explore" />
     </React.Fragment>
   );
 }
