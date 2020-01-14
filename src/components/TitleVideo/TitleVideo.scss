@@ -8,7 +8,7 @@
   }
   .videos {
     display: block;
-    @media only screen and (min-width: 900px) {
+    @media (min-width: 1281px) {
       display: flex;
       justify-content: space-between;
     }
@@ -16,7 +16,7 @@
       width: 100%;
       padding-bottom: 50px;
 
-      @media only screen and (min-width: 900px) {
+      @media (min-width: 1281px) {
         width: 35%;
       }
     }

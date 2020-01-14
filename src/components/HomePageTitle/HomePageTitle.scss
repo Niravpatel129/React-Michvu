@@ -4,7 +4,7 @@
   padding-bottom: 10%;
 
   .title {
-    @media only screen and (min-width: 900px) {
+    @media (min-width: 1281px) {
       padding-top: 5%;
     }
     margin: 0 auto;
@@ -13,7 +13,7 @@
   }
 
   h1 {
-    @media only screen and (min-width: 900px) {
+    @media (min-width: 1281px) {
       padding-top: 9%;
       margin: 0 auto;
       font-size: 6.5em;
@@ -28,7 +28,7 @@
   }
 
   img {
-    @media only screen and (min-width: 900px) {
+    @media (min-width: 1281px) {
       width: 70%;
       bottom: 10%;
       left: 60%;
@@ -40,7 +40,7 @@
   }
 
   h5 {
-    @media only screen and (min-width: 900px) {
+    @media (min-width: 1281px) {
       padding-top: 11%;
     }
     display: block;

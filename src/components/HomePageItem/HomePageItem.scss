@@ -4,7 +4,7 @@
   color: white;
   padding: 15% 11%;
   flex-wrap: wrap;
-  @media only screen and (min-width: 900px) {
+  @media (min-width: 1281px) {
     padding-bottom: 7%;
     padding-top: 7%;
   }
@@ -31,7 +31,7 @@
   .ContentBlock {
     justify-content: space-between;
     align-self: center;
-    @media only screen and (min-width: 900px) {
+    @media (min-width: 1281px) {
       width: 40%;
     }
     h1 {
@@ -76,7 +76,7 @@
   .captions {
     padding-top: 10%;
 
-    @media only screen and (min-width: 900px) {
+    @media (min-width: 1281px) {
       padding-top: none;
     }
 

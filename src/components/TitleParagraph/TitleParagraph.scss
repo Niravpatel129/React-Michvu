@@ -9,7 +9,7 @@
     height: auto;
   }
 
-  @media only screen and (min-width: 900px) {
+  @media (min-width: 1281px) {
     display: flex;
   }
   justify-content: space-between;
@@ -20,7 +20,7 @@
     color: #858585;
   }
   .paragraph {
-    @media only screen and (min-width: 900px) {
+    @media (min-width: 1281px) {
       width: 40%;
     }
   }
