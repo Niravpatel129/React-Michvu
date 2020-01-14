@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 import "./Tags.scss";
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -10,8 +10,20 @@ function Tags({
   tag2titlep,
   tag3title,
   tag3titlep,
-  id
+  id,
+  noborder
 }) {
+  const h3Ref1 = useRef(null);
+  const h3Ref2 = useRef(null);
+  const h3Ref3 = useRef(null);
+
+  useEffect(() => {
+    if (noborder) {
+      h3Ref1.current.style.border = "none";
+      h3Ref2.current.style.border = "none";
+      // h3Ref3.current.style.border = "none";
+    }
+  }, []);
   return (
     <ScrollAnimation animateIn="fadeIn">
       <section className="Tags" id={id}>
@@ -24,7 +36,9 @@ function Tags({
 
         <div className="types">
           <div>
-            <h3 className="type">{tag1title || "FILL"}</h3>
+            <h3 ref={h3Ref1} className="type">
+              {tag1title || "FILL"}
+            </h3>
 
             <p>
               {tag1titlep ||
@@ -35,7 +49,9 @@ function Tags({
           </div>
           {tag2titlep && (
             <div>
-              <h3 className="type">{tag2title || "FILL"}</h3>
+              <h3 ref={h3Ref2} className="type">
+                {tag2title || "FILL"}
+              </h3>
 
               <p>
                 {tag2titlep ||
@@ -48,7 +64,9 @@ function Tags({
 
           {tag3title && (
             <div>
-              <h3 className="type">{tag3title || "FILL"}</h3>
+              <h3 ref={h3Ref3} className="type">
+                {tag3title || "FILL"}
+              </h3>
 
               <p>
                 {tag3titlep ||

@@ -5,16 +5,7 @@ function HomePageTitle({ src, src2 }) {
   const image = useRef(null);
   const [source, changeSource] = useState(src);
 
-  const handleMouseEnter = e => {
-    changeSource(src2);
-  };
-
-  const handleMouseLeave = e => {
-    changeSource(src);
-  };
-
   const handleMouseClick = () => {
-    console.log("hello");
     if (source !== src2) {
       changeSource(src2);
     } else {
@@ -43,8 +34,6 @@ function HomePageTitle({ src, src2 }) {
           Portfolio
           <div className="image-cropper">
             <img
-              onMouseEnter={handleMouseEnter}
-              onMouseLeave={handleMouseLeave}
               onMouseDown={handleMouseClick}
               ref={image}
               src={source}

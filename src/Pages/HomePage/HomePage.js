@@ -102,6 +102,7 @@ function HomePage() {
           </React.Fragment>
         }
         id="contact"
+        noborder
       />
     </React.Fragment>
   );
