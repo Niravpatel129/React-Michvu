@@ -41,7 +41,7 @@ function Explore() {
       <TitleImage title="" video="https://i.imgur.com/78NxeUA.mp4" />
       <TitleImage title="" video="https://i.imgur.com/whoLF6q.mp4" />
 
-      <NextPrevious prev="/storytale" next="/recreation" />
+      <NextPrevious prev="/recreation" next="/storytale" />
     </React.Fragment>
   );
 }
