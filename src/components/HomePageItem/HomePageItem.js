@@ -1,154 +1,44 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
 
 import ScrollAnimation from "react-animate-on-scroll";
 
 import image1 from "./Thumbnail-1.jpg";
-import image2 from "./Thumbnail-2.jpg";
-import image3 from "./Thumbnail-3.jpg";
-import image4 from "./Thumbnail-4.jpg";
-
-import arrow from "./arrow.svg";
 
 import "./HomePageItem.scss";
+import { Link } from "react-router-dom";
 
-class HomePageItem extends Component {
-  componentDidMount() {
-    console.log("we mounted");
-    this.forceUpdate();
-  }
-  render() {
-    return (
-      <React.Fragment>
-        <ScrollAnimation animateIn="fadeIn">
-          <div className="HomePageItem">
-            <img className="imageBlock" src={image1} alt={image1}></img>
-            <div className="ContentBlock">
-              <h1>01</h1>
-              <div className="content">
-                <div className="captions">
-                  <h4>AUGMENTED REALITY</h4>
-                  <h4>VOICE RECOGINITION</h4>
-                  <h4>WEBSITE</h4>
-                </div>
-                <h2>
-                  StoryTale - <br></br>Interactive Storytelling
-                </h2>
-                <p>
-                  An interactive and accessible AR experience that actually
-                  deepens our engagement with stories.
-                </p>
-                <Link
-                  onClick={() => {
-                    window.scrollTo(0, 0);
-                  }}
-                  to="/storytale"
-                >
-                  <div className="viewcasestudy">
-                    VIEW CASESTUDY{" "}
-                    <img className="arrow" src={arrow} alt={arrow}></img>
-                  </div>
-                </Link>
+function HomePageItem({ src, tag1, tag2, tag3, title, para, btnSrc, link }) {
+  return (
+    <React.Fragment>
+      <ScrollAnimation animateIn="fadeIn">
+        <div className="HomePageItem">
+          <img className="imageBlock" src={src} alt={image1} />
+          <div className="ContentBlock">
+            <div className="content">
+              <div className="captions">
+                <h4>{tag1 || "AUGMENTED REALITY"}</h4>
+                <h4>{tag2 || "AUGMENTED REALITY"}</h4>
+                <h4>{tag3 || "AUGMENTED REALITY"}</h4>
               </div>
+              <h2>{title || "StoryTale Storytelling"}</h2>
+              <p>
+                {para ||
+                  `An interactive and accessible AR experience that actually
+                deepens our engagement with stories.`}
+              </p>
             </div>
+            <Link to={link || "/storytale"}>
+              <img
+                alt="btn"
+                className="view"
+                src={btnSrc || "https://i.imgur.com/DaBZTjf.png"}
+              ></img>
+            </Link>
           </div>
-          <div className="HomePageItem">
-            <img className="imageBlock" src={image2} alt={image2}></img>
-            <div className="ContentBlock">
-              <h1>02</h1>
-              <div className="content">
-                <div className="captions">
-                  <h4>
-                    WEBSITE <br></br>DESIGN
-                  </h4>
-                  <h4>UI/UX</h4>
-                  <h4>PRODUCT</h4>
-                </div>
-                <h2>Recreational Website</h2>
-                <p>
-                  Redesigning a recreational platform for my hometown. An deep
-                  dive into it’s UI/UX.
-                </p>
-                <a
-                  onClick={() => {
-                    window.scrollTo(0, 0);
-                  }}
-                  href="/recreation"
-                >
-                  <div className="viewcasestudy">
-                    VIEW CASESTUDY{" "}
-                    <img className="arrow" src={arrow} alt={arrow}></img>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="HomePageItem">
-            <img className="imageBlock" src={image3} alt={image3}></img>
-            <div className="ContentBlock">
-              <h1>03</h1>
-              <div className="content">
-                <div className="captions">
-                  <h4>
-                    APP <br></br>DESIGN
-                  </h4>
-                  <h4>UI/UX</h4>
-                  <h4>PRODUCT</h4>
-                </div>
-                <h2>Google Travel App</h2>
-                <p>
-                  An exploration where I explore an interface where users are
-                  able to utilize different types of assets in one app.
-                </p>
-                <Link
-                  onClick={() => {
-                    window.scrollTo(0, 0);
-                  }}
-                  to="/"
-                >
-                  <div className="viewcasestudy">
-                    COMMING SOON{" "}
-                    <img className="arrow" src={arrow} alt={arrow}></img>
-                  </div>
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="HomePageItem">
-            <img className="imageBlock" src={image4} alt={image4}></img>
-            <div className="ContentBlock">
-              <h1>04</h1>
-              <div className="content">
-                <div className="captions">
-                  <h4>
-                    VISUAL <br></br>DESIGN
-                  </h4>
-                  <h4>CINEMA4D</h4>
-                  <h4>BLENDER</h4>
-                </div>
-                <h2>3D Exploration</h2>
-                <p>
-                  A series of images and animations that pushed my ability to
-                  learn programs such as Cinema4d and Blender.
-                </p>
-                <Link
-                  onClick={() => {
-                    window.scrollTo(0, 0);
-                  }}
-                  to="/exploration"
-                >
-                  <div className="viewcasestudy">
-                    VIEW THREE DEE{" "}
-                    <img className="arrow" src={arrow} alt={arrow}></img>
-                  </div>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </ScrollAnimation>
-      </React.Fragment>
-    );
-  }
+        </div>
+      </ScrollAnimation>
+    </React.Fragment>
+  );
 }
 
 export default HomePageItem;

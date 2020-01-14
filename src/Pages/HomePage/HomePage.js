@@ -12,7 +12,49 @@ function HomePage() {
       <Navbar />
       <HomePageTitle />
       <HomeAbout />
-      <HomePageItem />
+      <HomePageItem
+        src="https://i.imgur.com/NyCrCWJ.jpg"
+        tag1="Augmented Reality"
+        tag2="Voice Recognition"
+        tag3="Website"
+        title="StoryTale"
+        para="An interactive and accessible AR website experience that actually deepens our engagement with stories."
+        btnSrc="https://i.imgur.com/wiKHpYE.png"
+        link="/storytale"
+      />
+
+      <HomePageItem
+        src="https://i.imgur.com/8XbJhKm.png"
+        tag1="Website"
+        tag2="UI/UX"
+        tag3="Product"
+        title="Recreation"
+        para="Redesigning a recreational platform for my hometown. A deep dive into its UI/UX."
+        btnSrc="https://i.imgur.com/wiKHpYE.png"
+        link="/recreation"
+      />
+
+      <HomePageItem
+        src="https://i.imgur.com/PzrxWpt.png"
+        tag1="Visual Design"
+        tag2="Blender"
+        tag3="Cinema4D"
+        title="3D Exploration"
+        para="A series of images and animations that pushed my ability to learn programs such as Cinema4d and Blender."
+        btnSrc="https://i.imgur.com/wiKHpYE.png"
+        link="/storytale"
+      />
+
+      <HomePageItem
+        src="https://i.imgur.com/8ImupKW.jpg"
+        tag1="App Design"
+        tag2="UI/UX"
+        tag3="Product"
+        title="Google Travel"
+        para="An exploration where I explore an interface where users are able to utilize different types of assets in one app."
+        btnSrc="https://i.imgur.com/DaBZTjf.png"
+        link="/storytale"
+      />
       <Tags
         quote={
           <React.Fragment>

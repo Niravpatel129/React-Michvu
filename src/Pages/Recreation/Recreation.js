@@ -42,7 +42,6 @@ function Recreation() {
         src1=""
         src2=""
       />
-      />
       <TitleImage title="Current Site" src="https://i.imgur.com/zwcd32C.png" />
       <TitleImage title="" src="https://i.imgur.com/VggYYg9.png" />
       <TitleParagraph
@@ -80,7 +79,6 @@ function Recreation() {
           </React.Fragment>
         }
       />
-      />
       <TitleImage
         title="Current Site Walkthrough"
         src="https://i.imgur.com/ZtqD4d9.png"
@@ -91,7 +89,7 @@ on the recreation site such as the information on their classes - schedules, how
         tag1title="Search Feature"
         tag1titlep={
           <React.Fragment>
-            } I was really inspired by online booking for hotels and flights
+            I was really inspired by online booking for hotels and flights
             filtering system, such as AirBnB, when researching for competitive
             companies. With such a large content base, this could possibly be
             implemented in other cities as well, I decided to adopt their
