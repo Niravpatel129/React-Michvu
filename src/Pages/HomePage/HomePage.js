@@ -10,7 +10,10 @@ function HomePage() {
   return (
     <React.Fragment>
       <Navbar />
-      <HomePageTitle />
+      <HomePageTitle
+        src="https://i.imgur.com/jDR5lvL.png"
+        src2="https://i.imgur.com/tJCBMOi.png"
+      />
       <HomeAbout />
       <HomePageItem
         src="https://i.imgur.com/NyCrCWJ.jpg"
@@ -98,6 +101,7 @@ function HomePage() {
             <br></br>
           </React.Fragment>
         }
+        id="contact"
       />
     </React.Fragment>
   );

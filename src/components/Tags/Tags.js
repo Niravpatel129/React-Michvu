@@ -9,11 +9,12 @@ function Tags({
   tag2title,
   tag2titlep,
   tag3title,
-  tag3titlep
+  tag3titlep,
+  id
 }) {
   return (
     <ScrollAnimation animateIn="fadeIn">
-      <section className="Tags">
+      <section className="Tags" id={id}>
         <p className="quote">
           {quote ||
             `Lorem Ipsum is simply dummy text of the printing and typesetting

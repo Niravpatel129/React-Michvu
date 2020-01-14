@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Neue Haas Unica";
   color: white;
+  scroll-behavior: smooth;
 }
 
 body {

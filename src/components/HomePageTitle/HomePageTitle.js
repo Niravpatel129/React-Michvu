@@ -1,8 +1,26 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import "./HomePageTitle.scss";
 
-function HomePageTitle() {
+function HomePageTitle({ src, src2 }) {
   const image = useRef(null);
+  const [source, changeSource] = useState(src);
+
+  const handleMouseEnter = e => {
+    changeSource(src2);
+  };
+
+  const handleMouseLeave = e => {
+    changeSource(src);
+  };
+
+  const handleMouseClick = () => {
+    console.log("hello");
+    if (source !== src2) {
+      changeSource(src2);
+    } else {
+      changeSource(src);
+    }
+  };
 
   const handleScroll = e => {
     let scroll = window.pageYOffset;
@@ -25,9 +43,12 @@ function HomePageTitle() {
           Portfolio
           <div className="image-cropper">
             <img
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+              onMouseDown={handleMouseClick}
               ref={image}
-              src="https://i.imgur.com/jDR5lvL.png"
-              alt="https://i.imgur.com/TNK3jgm.png"
+              src={source}
+              alt={source}
             ></img>
           </div>
         </h1>
