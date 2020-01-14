@@ -26,16 +26,16 @@ function StoryTale() {
         title1="Opportunities"
         title2="Collaboration"
         para1={
-          <>
+          <React.Fragment>
             Building an experience that blends analog and digital in a clever
             and meaningful way.
-          </>
+          </React.Fragment>
         }
         para2={
-          <>
+          <React.Fragment>
             Generate a product that encourages families to better connect with
             each other.
-          </>
+          </React.Fragment>
         }
         src1=""
         src2=""
@@ -45,7 +45,7 @@ function StoryTale() {
         quote="Storytelling between parent and child is a fundamental human experience that often carry a deeper message that the child can reflect on later in life."
         tag1title="How"
         tag1titlep={
-          <>
+          <React.Fragment>
             The experience takes place between a parent and their child on a
             tablet. The parent or child selects a story they want to read from
             the story selection page.
@@ -59,14 +59,14 @@ function StoryTale() {
             <br></br>
             Parents or children can then have simple interactions with the 3D
             model. For example, they can tap a cow to hear it "moo".
-          </>
+          </React.Fragment>
         }
       />
       <TitleParagraph
         title1="Voice Recognition"
         title2="Augmented Reality (AR)"
         para1={
-          <>
+          <React.Fragment>
             Allows for the parents to be apart of the story experience with
             their child. Dictation can also help kids who struggle with reading
             and writing.
@@ -74,10 +74,10 @@ function StoryTale() {
             <br></br>
             Below is an example of how voice recogntion is introduced to
             children.
-          </>
+          </React.Fragment>
         }
         para2={
-          <>
+          <React.Fragment>
             There is a narrative potential in using AR to tell stories. Rather
             than having stories take shape in a book, the story is instead
             placed in their own space.
@@ -85,7 +85,7 @@ function StoryTale() {
             <br></br>
             This creates a more realistic and seamless experience by using the
             lens of the device.
-          </>
+          </React.Fragment>
         }
         src1=""
         src2=""

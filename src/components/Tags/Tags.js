@@ -20,9 +20,11 @@ function Tags({
         industry. Lorem Ipsum has been the industry's standard dummy text ever
         since the 1500s`}
         </p>
+
         <div className="types">
           <div>
             <h3 className="type">{tag1title || "FILL"}</h3>
+
             <p>
               {tag1titlep ||
                 `Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -33,6 +35,7 @@ function Tags({
           {tag2titlep && (
             <div>
               <h3 className="type">{tag2title || "FILL"}</h3>
+
               <p>
                 {tag2titlep ||
                   `Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -45,6 +48,7 @@ function Tags({
           {tag3title && (
             <div>
               <h3 className="type">{tag3title || "FILL"}</h3>
+
               <p>
                 {tag3titlep ||
                   `Lorem Ipsum is simply dummy text of the printing and typesetting

@@ -26,18 +26,18 @@ function Recreation() {
         title1="Personal Goals"
         title2="Design Goals"
         para1={
-          <>
+          <React.Fragment>
             My first goal is to learn to conduct and analyze user research on my
             own. To which then sort said research and design flowcharts,
             wireframes and the final product from it.
-          </>
+          </React.Fragment>
         }
         para2={
-          <>
+          <React.Fragment>
             Design goals for this redesign is redefining the user experience of
             Guelph’s recreational website. Design an anti-human experience in
             the website. To create trust and functionality through this product.
-          </>
+          </React.Fragment>
         }
         src1=""
         src2=""
@@ -49,7 +49,7 @@ function Recreation() {
         title1="The Problem"
         title2="Addressing the Current Architecture"
         para1={
-          <>
+          <React.Fragment>
             The platform is in need of a new visual design and a reorganized
             information architecture as the current one is insufficient.
             <br></br>
@@ -62,10 +62,10 @@ function Recreation() {
             <br></br>
             However, pamphlets are outdated as most classes would get canceled
             if there isn’t enough participants.
-          </>
+          </React.Fragment>
         }
         para2={
-          <>
+          <React.Fragment>
             To better understand the current information architecture of
             guelph.ca page, I mapped out their current platform and its content.
             <br></br>
@@ -77,7 +77,7 @@ function Recreation() {
             <br></br>
             Therefore, I was able to formulate what I was seeking for in my user
             interviews.
-          </>
+          </React.Fragment>
         }
       />
       />
@@ -90,7 +90,7 @@ function Recreation() {
 on the recreation site such as the information on their classes - schedules, how much it cost, any of that - and I gave up on that and decided to go to the YMCA instead. - Interviewee"
         tag1title="Search Feature"
         tag1titlep={
-          <>
+          <React.Fragment>
             } I was really inspired by online booking for hotels and flights
             filtering system, such as AirBnB, when researching for competitive
             companies. With such a large content base, this could possibly be
@@ -102,7 +102,7 @@ on the recreation site such as the information on their classes - schedules, how
             feature that they are comfortable in using (Example: Expedia.ca has
             a high demographic adults between the ages of 25-54 that uses their
             site).
-          </>
+          </React.Fragment>
         }
       />
       <TitleImage title="Branding" src="https://i.imgur.com/LfgwyBu.png" />
