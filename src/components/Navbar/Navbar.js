@@ -10,7 +10,7 @@ function Navbar() {
       </Link>
       <h2>TORONTO</h2>
       <h2>LAST UPDATED: 07/26/19</h2>
-      <a href="#contact" style={{ textDecoration: "none" }}>
+      <a href="/#contact" style={{ textDecoration: "none" }}>
         <h2>CONTACT</h2>
       </a>
     </section>
