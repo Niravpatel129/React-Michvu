@@ -9,10 +9,10 @@ function TitleVideo({ title, src1, src2, video }) {
       <section className="TitleVideo">
         {title && <h3>{title}</h3>}
         <div className="videos">
-          <video loop autoPlay={!isMobile}>
+          <video loop autoPlay={!isMobile} muted>
             <source src={src1} type="video/mp4" />
           </video>
-          <video loop autoPlay={!isMobile}>
+          <video loop autoPlay={!isMobile} muted>
             <source src={src2} type="video/mp4" />
           </video>
         </div>
