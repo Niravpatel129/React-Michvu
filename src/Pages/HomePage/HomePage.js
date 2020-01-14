@@ -56,7 +56,7 @@ function HomePage() {
         title="Google Travel"
         para="An exploration where I explore an interface where users are able to utilize different types of assets in one app."
         btnSrc="https://i.imgur.com/DaBZTjf.png"
-        link="/storytale"
+        link=""
       />
       <Tags
         quote={

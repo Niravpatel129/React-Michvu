@@ -27,13 +27,21 @@ function HomePageItem({ src, tag1, tag2, tag3, title, para, btnSrc, link }) {
                 deepens our engagement with stories.`}
               </p>
             </div>
-            <Link to={link || "/storytale"}>
+            {!link ? (
               <img
                 alt="btn"
                 className="view"
                 src={btnSrc || "https://i.imgur.com/DaBZTjf.png"}
               ></img>
-            </Link>
+            ) : (
+              <Link to={link || ""}>
+                <img
+                  alt="btn"
+                  className="view"
+                  src={btnSrc || "https://i.imgur.com/DaBZTjf.png"}
+                ></img>
+              </Link>
+            )}
           </div>
         </div>
       </ScrollAnimation>
