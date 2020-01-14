@@ -1,7 +1,6 @@
 import React from "react";
 import "./TitleImage.scss";
 import ScrollAnimation from "react-animate-on-scroll";
-import ModalImage from "react-modal-image";
 
 function TitleImage({ title, src, video }) {
   return (
@@ -13,8 +12,8 @@ function TitleImage({ title, src, video }) {
             <source src="https://i.imgur.com/IadcLp5.mp4" type="video/mp4" />
           </video>
         )}
-        {/* <img alt={src || image} src={src || image}></img> */}
-        {src && <ModalImage small={src} large={src} hideDownload hideZoom />}
+        <img alt={src} src={src}></img>
+        {/* {src && <ModalImage small={src} large={src} hideDownload hideZoom />} */}
       </section>
     </ScrollAnimation>
   );

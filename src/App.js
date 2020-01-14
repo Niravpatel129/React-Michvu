@@ -6,6 +6,7 @@ import StoryTale from "./Pages/StoryTale/StoryTale";
 import Recreation from "./Pages/Recreation/Recreation";
 
 import ScrollToTop from "react-router-scroll-top";
+import Explore from "./Pages/Explore/Explore";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" exact component={HomePage} />
           <Route path="/storytale" exact component={StoryTale} />
           <Route path="/recreation" exact component={Recreation} />
+          <Route path="/explore" exact component={Explore} />
         </ScrollToTop>
       </BrowserRouter>
     </div>
