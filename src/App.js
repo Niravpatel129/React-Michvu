@@ -15,8 +15,8 @@ function App() {
           <Route path="/" exact component={HomePage} />
           <Route path="/storytale" exact component={StoryTale} />
           <Route path="/recreation" exact component={Recreation} />
-        </BrowserRouter>
-      </ScrollToTop>
+        </ScrollToTop>
+      </BrowserRouter>
     </div>
   );
 }
