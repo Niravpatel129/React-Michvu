@@ -98,7 +98,7 @@ function StoryTale() {
       <Video src="https://player.vimeo.com/video/384106368" />
       <TitleImage
         title="3D Modelling / Character Design / Scene Layout"
-        src="https://i.imgur.com/roYINFS.png"
+        src="https://i.imgur.com/9RGBqjd.png"
       />
       <TitleImage title="" src="https://i.imgur.com/roYINFS.png" />
       <TitleImage title="" src="https://i.imgur.com/t6PHfSS.png" />
