@@ -22,7 +22,7 @@ function Explore() {
       />
 
       <TitleImage title="SparkAR" src="https://i.imgur.com/tGqZ3AV.jpg" />
-      <TitleImage title=" " video="https://player.vimeo.com/video/384673980" />
+      <TitleImage title="" video="https://i.imgur.com/3LXJJ7a.mp4" />
 
       <TitleImage title="Blender" src="https://i.imgur.com/fJX5IV6.png" />
       <TitleImage title="" src="https://i.imgur.com/VD4Koxs.png" />

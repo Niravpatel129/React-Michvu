@@ -9,7 +9,7 @@ function TitleImage({ title, src, video }) {
         {title && <h3>{title}</h3>}
         {video && (
           <video loop autoPlay>
-            <source src="https://i.imgur.com/IadcLp5.mp4" type="video/mp4" />
+            <source src={video} type="video/mp4" />
           </video>
         )}
         <img alt={src} src={src}></img>
