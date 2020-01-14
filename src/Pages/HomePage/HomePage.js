@@ -42,7 +42,7 @@ function HomePage() {
         title="3D Exploration"
         para="A series of images and animations that pushed my ability to learn programs such as Cinema4d and Blender."
         btnSrc="https://i.imgur.com/wiKHpYE.png"
-        link="/storytale"
+        link="/explore"
       />
 
       <HomePageItem

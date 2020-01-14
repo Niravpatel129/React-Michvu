@@ -3,8 +3,6 @@ import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import Introduction from "../../components/Introduction/Introduction";
 import Tags from "../../components/Tags/Tags";
-import Video from "../../components/Video/Video";
-import TitleParagraph from "../../components/TitleParagraph/TitleParagraph";
 import TitleImage from "../../components/TitleImage/TitleImage";
 import NextPrevious from "../../components/NextPrevious/NextPrevious";
 
@@ -12,7 +10,7 @@ function Explore() {
   return (
     <React.Fragment>
       <Navbar />
-      <Introduction title="Recreation" src="https://i.imgur.com/KreI0nR.png" />
+      <Introduction title="Explore" src="https://i.imgur.com/KreI0nR.png" />
       <Tags
         quote="Starting in the summer of 2017, I gained interest in 3D and from there on I started developing my style. Creating things such as abstract 3D objects to creating assets in small projects here and there."
         tag1title="Type"
