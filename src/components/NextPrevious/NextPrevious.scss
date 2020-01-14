@@ -8,8 +8,10 @@
     h2 {
       font-family: "Ogg";
       font-weight: 100;
+      color: white;
+
       font-size: 255%;
-      text-decoration: underline;
+      // text-decoration: underline;
     }
   }
 
@@ -29,7 +31,10 @@
     text-decoration: none;
   }
 
-  a:hover {
-    text-decoration: underline;
+  h2:hover,
+  h5:hover {
+    // background-color: red;
+    opacity: 1;
+    color: #858585;
   }
 }
