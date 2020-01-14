@@ -16,18 +16,22 @@
       font-size: 7.5em;
       font-weight: 100;
     }
-    img {
+
+    .imageContainer {
+      width: 35%;
       position: absolute;
       top: 10%;
       left: 19%;
-      // height: 65%;
-      // width: 100vw;
-      max-width: 65%;
+      // max-width: 65%;
       transform: rotate(0deg);
       @media (min-width: 1281px) {
         transform: rotate(-30deg);
         top: 27%;
         left: 15%;
+      }
+
+      img {
+        width: 100%;
       }
     }
   }

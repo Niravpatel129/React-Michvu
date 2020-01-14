@@ -9,7 +9,9 @@ function Introduction({ title, src }) {
       <section className="Introduction">
         <div className="titleBlock">
           <h1> {title || "StoryTale"}</h1>
-          <img alt="etc" src={src || Image}></img>
+          <div className="imageContainer">
+            <img alt="etc" src={src || Image}></img>
+          </div>
         </div>
       </section>
     </ScrollAnimation>
