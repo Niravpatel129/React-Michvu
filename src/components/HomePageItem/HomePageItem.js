@@ -32,6 +32,7 @@ function HomePageItem({ src, tag1, tag2, tag3, title, para, btnSrc, link }) {
                 alt="btn"
                 className="view"
                 src={btnSrc || "https://i.imgur.com/DaBZTjf.png"}
+                style={{ opacity: 0.25 }}
               ></img>
             ) : (
               <Link to={link || ""}>
