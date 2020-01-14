@@ -1,6 +1,7 @@
 import React from "react";
 import "./TitleImage.scss";
 import ScrollAnimation from "react-animate-on-scroll";
+import { isMobile } from "react-device-detect";
 
 function TitleImage({ title, src, video, size }) {
   return (
@@ -9,7 +10,7 @@ function TitleImage({ title, src, video, size }) {
         {title && <h3>{title}</h3>}
         <div className="video" style={{ width: size }}>
           {video && (
-            <video loop autoPlay>
+            <video loop autoPlay={!isMobile}>
               <source src={video} type="video/mp4" />
             </video>
           )}
