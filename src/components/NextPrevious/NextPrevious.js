@@ -9,11 +9,11 @@ function NextPrevious({ next, prev }) {
     <ScrollAnimation animateIn="fadeIn">
       <section className="NextPrevious">
         <div className="Text">
-          <Link to={next}>
-            <h2>Next</h2>
-          </Link>
           <Link to={prev}>
             <h2>Previous</h2>
+          </Link>
+          <Link to={next}>
+            <h2>Next</h2>
           </Link>
         </div>
         <a href="#Navbar">
