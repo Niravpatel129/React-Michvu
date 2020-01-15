@@ -69,7 +69,7 @@ function HomePage() {
               Let’s talk at{" "}
               <a href="mailto:mivuuuu@gmail.com">mivuuuu@gmail.com!</a>{" "}
               <br></br>Click here for my{" "}
-              <a href="https://drive.google.com/file/d/1kGu9YrdSUKSB6lp-6dzNtc3qrpg_0Mx3/view?fbclid=IwAR39A4UXcA6StUG9Q_rJ9LPXdjkkV7pMPxje9M3UgRyvEAyId-zgwFvH9XM">
+              <a href="https://drive.google.com/file/d/1h47ZcWo8N78tYkuXL9y66NwlphaSRguV/view?fbclid=IwAR0u7WAGwn1hIb2OwZZE4Ic2MJV3BX0ROc8YT4ED_UGzG26Th9H2G5EqQss">
                 resume
               </a>
             </span>
