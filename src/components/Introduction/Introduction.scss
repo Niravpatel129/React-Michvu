@@ -19,10 +19,10 @@
 
     .imageContainer {
       width: 35%;
+      min-width: 350px;
       position: absolute;
       top: 10%;
       left: 19%;
-      // max-width: 65%;
       transform: rotate(0deg);
       @media (min-width: 1281px) {
         transform: rotate(-30deg);
