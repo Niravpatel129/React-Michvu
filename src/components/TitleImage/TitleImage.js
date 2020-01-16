@@ -9,7 +9,7 @@ function TitleImage({ title, src, video, size }) {
         {title && <h3>{title}</h3>}
         <div className="video" style={{ width: size }}>
           {video && (
-            <video loop muted>
+            <video loop muted autoPlay>
               <source src={video} type="video/mp4" />
             </video>
           )}
