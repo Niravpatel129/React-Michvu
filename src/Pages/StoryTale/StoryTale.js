@@ -103,8 +103,8 @@ function StoryTale() {
       <NextPrevious
         prev="/explore"
         next="/recreation"
-        nextSrc="https://i.imgur.com/N22JYTh.png"
-        prevSrc="https://i.imgur.com/LfgwyBu.png"
+        // nextSrc="https://i.imgur.com/N22JYTh.png"
+        // prevSrc="https://i.imgur.com/LfgwyBu.png"
       />
     </React.Fragment>
   );
