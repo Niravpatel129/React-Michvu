@@ -102,7 +102,12 @@ function StoryTale() {
       />
       <TitleImage title="" src="https://i.imgur.com/roYINFS.png" />
       <TitleImage title="" src="https://i.imgur.com/t6PHfSS.png" />
-      <NextPrevious prev="/explore" next="/recreation" />
+      <NextPrevious
+        prev="/explore"
+        next="/recreation"
+        nextSrc="https://i.imgur.com/N22JYTh.png"
+        prevSrc="https://i.imgur.com/LfgwyBu.png"
+      />
     </React.Fragment>
   );
 }

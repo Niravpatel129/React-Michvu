@@ -1,8 +1,26 @@
 .NextPrevious {
+  position: relative;
   background-color: black;
   color: white;
   padding: 50px 10%;
+  padding-top: 100px;
+  overflow: hidden;
+
+  .cursor {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    margin: -100px 0 0 -100px;
+    background: url("https://i.imgur.com/9RGBqjd.png") no-repeat 50% 50%;
+    background-size: cover;
+    z-index: 1;
+    opacity: 0;
+  }
+
   .Text {
+    position: relative;
+    z-index: 2;
+
     display: flex;
     justify-content: space-between;
     h2 {
@@ -16,6 +34,8 @@
   }
 
   h5 {
+    position: relative;
+    z-index: 2;
     display: flex;
     justify-content: center;
     text-transform: uppercase;
