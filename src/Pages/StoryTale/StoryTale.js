@@ -1,6 +1,5 @@
 import React from "react";
 
-import Navbar from "../../components/Navbar/Navbar";
 import Introduction from "../../components/Introduction/Introduction";
 import Tags from "../../components/Tags/Tags";
 import Video from "../../components/Video/Video";
@@ -11,7 +10,6 @@ import NextPrevious from "../../components/NextPrevious/NextPrevious";
 function StoryTale() {
   return (
     <React.Fragment>
-      <Navbar />
       <Introduction title="Storytale" src="https://i.imgur.com/qbEUrTp.png" />
       <Tags
         quote="An interactive and accessible AR experience that actually deepens our engagement with stories."

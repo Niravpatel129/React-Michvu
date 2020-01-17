@@ -1,6 +1,5 @@
 import React from "react";
 
-import Navbar from "../../components/Navbar/Navbar";
 import Introduction from "../../components/Introduction/Introduction";
 import Tags from "../../components/Tags/Tags";
 import TitleParagraph from "../../components/TitleParagraph/TitleParagraph";
@@ -11,7 +10,6 @@ import TitleVideo from "../../components/TitleVideo/TitleVideo";
 function Recreation() {
   return (
     <React.Fragment>
-      <Navbar />
       <Introduction title="Recreation" src="https://i.imgur.com/995WUZV.png" />
       <Tags
         quote="How can I help parents find the perfect program for their child? "

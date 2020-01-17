@@ -1,6 +1,5 @@
 import React from "react";
 
-import Navbar from "../../components/Navbar/Navbar";
 import HomeAbout from "../../components/HomeAbout/HomeAbout";
 import HomePageItem from "../../components/HomePageItem/HomePageItem";
 import Tags from "../../components/Tags/Tags";
@@ -9,7 +8,6 @@ import HomePageTitle from "../../components/HomePageTitle/HomePageTitle";
 function HomePage() {
   return (
     <React.Fragment>
-      <Navbar />
       <HomePageTitle
         src="https://i.imgur.com/jDR5lvL.png"
         src2="https://i.imgur.com/tJCBMOi.png"
