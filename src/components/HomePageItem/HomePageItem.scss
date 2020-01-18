@@ -16,6 +16,7 @@
 
   .imageBlock {
     width: 100%;
+    max-width: 540px;
     max-height: 700px;
     @media (min-width: 1281px) {
       width: 40%;
@@ -89,8 +90,9 @@
   }
 
   .view {
+    max-width: 250px;
     // padding-top: 100px;
-    padding-top: 10%;
+    padding-top: 9%;
     width: 65%;
   }
 }
