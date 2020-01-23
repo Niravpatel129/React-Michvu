@@ -1,8 +1,9 @@
 .HomePageItem {
   display: flex;
-  background-color: black;
+  background-color: #222222;
   color: white;
   padding: 15% 11%;
+
   flex-wrap: wrap;
   @media (min-width: 1281px) {
     padding-bottom: 7%;
