@@ -1,3 +1,4 @@
+![demo](/demo/demo.gif)
 Project Hosted at: https://michvu-components.netlify.com/storytale
 
 Production build hosted at: www.michvu.co
