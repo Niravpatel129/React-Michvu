@@ -36,17 +36,6 @@ function HomePage() {
       />
 
       <HomePageItem
-        src="https://i.imgur.com/PzrxWpt.png"
-        tag1="Visual Design"
-        tag2="Blender"
-        tag3="Cinema4D"
-        title="3D Exploration"
-        para="A series of images and animations that pushed my ability to learn programs such as Cinema4d and Blender."
-        btnSrc="https://i.imgur.com/wiKHpYE.png"
-        link="/explore"
-      />
-
-      <HomePageItem
         src="https://trello-attachments.s3.amazonaws.com/5d94e7988d8b535c5af5e9b5/5e3b54b7193f7f284c2d554f/a4574587c0310301f58f075d6b39f79b/Thumbnail-5.png"
         tag1="Website Design"
         tag2="UI/UX"
@@ -55,6 +44,17 @@ function HomePage() {
         para="A one week design challenge to redesign the home page of Amazon. Here is my research, analysis, and execution of my attempt.        "
         btnSrc="https://trello-attachments.s3.amazonaws.com/5d94e7988d8b535c5af5e9b5/5e3b54b7193f7f284c2d554f/0627ca47bafe6acb85b4ee11ea8c80e7/InquireToView.svg"
         link=""
+      />
+
+      <HomePageItem
+        src="https://i.imgur.com/PzrxWpt.png"
+        tag1="Visual Design"
+        tag2="Blender"
+        tag3="Cinema4D"
+        title="3D Exploration"
+        para="A series of images and animations that pushed my ability to learn programs such as Cinema4d and Blender."
+        btnSrc="https://i.imgur.com/wiKHpYE.png"
+        link="/explore"
       />
 
       <HomePageItem
