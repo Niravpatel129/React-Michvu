@@ -20,7 +20,7 @@ function HomePage() {
         tag3="Website"
         title="StoryTale"
         para="An interactive and accessible AR website experience that actually deepens our engagement with stories."
-        btnSrc="https://i.imgur.com/wiKHpYE.png"
+        btnSrc="https://trello-attachments.s3.amazonaws.com/5d94e7988d8b535c5af5e9b5/5e3b54b7193f7f284c2d554f/a1b63af082031dc4cc90834870e76e93/ViewCaseStudyButton.svg"
         link="/storytale"
       />
 
@@ -31,7 +31,7 @@ function HomePage() {
         tag3="Product"
         title="Recreation"
         para="Redesigning a recreational platform for my hometown. A deep dive into its UI/UX."
-        btnSrc="https://i.imgur.com/wiKHpYE.png"
+        btnSrc="https://trello-attachments.s3.amazonaws.com/5d94e7988d8b535c5af5e9b5/5e3b54b7193f7f284c2d554f/a1b63af082031dc4cc90834870e76e93/ViewCaseStudyButton.svg"
         link="/recreation"
       />
 
@@ -64,7 +64,7 @@ function HomePage() {
         tag3="Cinema4D"
         title="3D Exploration"
         para="A series of images and animations that pushed my ability to learn programs such as Cinema4d and Blender."
-        btnSrc="https://i.imgur.com/wiKHpYE.png"
+        btnSrc="https://trello-attachments.s3.amazonaws.com/5d94e7988d8b535c5af5e9b5/5e3b54b7193f7f284c2d554f/a1b63af082031dc4cc90834870e76e93/ViewCaseStudyButton.svg"
         link="/explore"
       />
 
