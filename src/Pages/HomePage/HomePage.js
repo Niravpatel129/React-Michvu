@@ -47,16 +47,6 @@ function HomePage() {
       />
 
       <HomePageItem
-        src="https://i.imgur.com/8ImupKW.jpg"
-        tag1="App Design"
-        tag2="UI/UX"
-        tag3="Product"
-        title="Google Travel"
-        para="An exploration where I explore an interface where users are able to utilize different types of assets in one app."
-        btnSrc="https://i.imgur.com/DaBZTjf.png"
-        link=""
-      />
-      <HomePageItem
         src="https://trello-attachments.s3.amazonaws.com/5d94e7988d8b535c5af5e9b5/5e3b54b7193f7f284c2d554f/a4574587c0310301f58f075d6b39f79b/Thumbnail-5.png"
         tag1="Website Design"
         tag2="UI/UX"
@@ -66,6 +56,18 @@ function HomePage() {
         btnSrc="https://trello-attachments.s3.amazonaws.com/5d94e7988d8b535c5af5e9b5/5e3b54b7193f7f284c2d554f/0627ca47bafe6acb85b4ee11ea8c80e7/InquireToView.svg"
         link=""
       />
+
+      <HomePageItem
+        src="https://i.imgur.com/8ImupKW.jpg"
+        tag1="App Design"
+        tag2="UI/UX"
+        tag3="Product"
+        title="Google Travel"
+        para="An exploration where I explore an interface where users are able to utilize different types of assets in one app."
+        btnSrc="https://i.imgur.com/DaBZTjf.png"
+        link=""
+      />
+
       <Tags
         quote={
           <React.Fragment>
