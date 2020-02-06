@@ -56,6 +56,16 @@ function HomePage() {
         btnSrc="https://i.imgur.com/DaBZTjf.png"
         link=""
       />
+      <HomePageItem
+        src="https://trello-attachments.s3.amazonaws.com/5d94e7988d8b535c5af5e9b5/5e3b54b7193f7f284c2d554f/a4574587c0310301f58f075d6b39f79b/Thumbnail-5.png"
+        tag1="Website Design"
+        tag2="UI/UX"
+        tag3="Product"
+        title="Amazon Homepage Redesign"
+        para="A one week design challenge to redesign the home page of Amazon. Here is my research, analysis, and execution of my attempt.        "
+        btnSrc="https://trello-attachments.s3.amazonaws.com/5d94e7988d8b535c5af5e9b5/5e3b54b7193f7f284c2d554f/0627ca47bafe6acb85b4ee11ea8c80e7/InquireToView.svg"
+        link=""
+      />
       <Tags
         quote={
           <React.Fragment>
