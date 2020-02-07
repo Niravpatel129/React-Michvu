@@ -84,9 +84,11 @@
 
   .captions {
     padding-top: 10%;
+    // padding-left: 50px;
 
     @media (min-width: 1281px) {
       padding-top: none;
+      padding-right: 24%;
     }
 
     display: flex;
