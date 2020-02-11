@@ -1,7 +1,7 @@
 ![demo](/demo/demo.gif)
 Project Hosted at: https://michvu-components.netlify.com/storytale
 
-Production build hosted at: www.michvu.co
+Also Alias Production build hosted at: www.michvu.co
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
