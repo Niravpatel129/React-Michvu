@@ -20,7 +20,7 @@ function HomePage() {
         tag3="Website"
         title="StoryTale"
         para="An interactive and accessible AR website experience that actually deepens our engagement with stories."
-        btnSrc="https://trello-attachments.s3.amazonaws.com/5d94e7988d8b535c5af5e9b5/5e3b54b7193f7f284c2d554f/a1b63af082031dc4cc90834870e76e93/ViewCaseStudyButton.svg"
+        btnSrc="https://trello-attachments.s3.amazonaws.com/5d94e7988d8b535c5af5e9b5/5e3dcce46df80176085e7d8a/16dfb5d76329ede340dcaeb2aa72a52c/ViewCaseStudyButton.svg"
         link="/storytale"
       />
 
@@ -31,7 +31,7 @@ function HomePage() {
         tag3="Product"
         title="Recreation"
         para="Redesigning a recreational platform for my hometown. A deep dive into its UI/UX."
-        btnSrc="https://trello-attachments.s3.amazonaws.com/5d94e7988d8b535c5af5e9b5/5e3b54b7193f7f284c2d554f/a1b63af082031dc4cc90834870e76e93/ViewCaseStudyButton.svg"
+        btnSrc="https://trello-attachments.s3.amazonaws.com/5d94e7988d8b535c5af5e9b5/5e3dcce46df80176085e7d8a/16dfb5d76329ede340dcaeb2aa72a52c/ViewCaseStudyButton.svg"
         link="/recreation"
       />
 
@@ -42,7 +42,7 @@ function HomePage() {
         tag3="Product"
         title="Amazon Homepage Redesign"
         para="A one week design challenge to redesign the home page of Amazon. Here is my research, analysis, and execution of my attempt.        "
-        btnSrc="https://trello-attachments.s3.amazonaws.com/5d94e7988d8b535c5af5e9b5/5e3b54b7193f7f284c2d554f/0627ca47bafe6acb85b4ee11ea8c80e7/InquireToView.svg"
+        btnSrc="https://trello-attachments.s3.amazonaws.com/5d94e7988d8b535c5af5e9b5/5e3dcce46df80176085e7d8a/5fb6e732420ee2bbcad6dd5eb329475d/InquireToView.svg"
         link=""
       />
 
@@ -53,7 +53,7 @@ function HomePage() {
         tag3="Product"
         title="Google Travel"
         para="An exploration where I explore an interface where users are able to utilize different types of assets in one app."
-        btnSrc="https://trello-attachments.s3.amazonaws.com/5d94e7988d8b535c5af5e9b5/5e3b54b7193f7f284c2d554f/0627ca47bafe6acb85b4ee11ea8c80e7/InquireToView.svg"
+        btnSrc="https://trello-attachments.s3.amazonaws.com/5d94e7988d8b535c5af5e9b5/5e3dcce46df80176085e7d8a/5fb6e732420ee2bbcad6dd5eb329475d/InquireToView.svg"
         link=""
       />
 
@@ -64,7 +64,7 @@ function HomePage() {
         tag3="Cinema4D"
         title="3D Exploration"
         para="A series of images and animations that pushed my ability to learn programs such as Cinema4d and Blender."
-        btnSrc="https://trello-attachments.s3.amazonaws.com/5d94e7988d8b535c5af5e9b5/5e3b54b7193f7f284c2d554f/a1b63af082031dc4cc90834870e76e93/ViewCaseStudyButton.svg"
+        btnSrc="https://trello-attachments.s3.amazonaws.com/5d94e7988d8b535c5af5e9b5/5e3dcce46df80176085e7d8a/16dfb5d76329ede340dcaeb2aa72a52c/ViewCaseStudyButton.svg"
         link="/explore"
       />
 
