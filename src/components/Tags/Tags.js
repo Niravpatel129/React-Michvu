@@ -38,7 +38,6 @@ function Tags({
             <h3 ref={h3Ref1} className="type">
               {tag1title || "FILL"}
             </h3>
-
             <p>
               {tag1titlep ||
                 `Lorem Ipsum is simply dummy text of the printing and typesetting

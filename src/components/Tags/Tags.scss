@@ -3,12 +3,12 @@
   background-color: #222222;
   color: white;
   font-weight: normal;
+  justify-content: space-between;
+  padding: 50px 10%;
 
   @media (min-width: 1281px) {
     display: flex;
   }
-  justify-content: space-between;
-  padding: 50px 10%;
 
   .quote {
     align-self: center;
