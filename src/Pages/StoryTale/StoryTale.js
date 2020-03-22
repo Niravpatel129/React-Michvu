@@ -6,7 +6,6 @@ import Video from "../../components/Video/Video";
 import TitleParagraph from "../../components/TitleParagraph/TitleParagraph";
 import TitleImage from "../../components/TitleImage/TitleImage";
 import NextPrevious from "../../components/NextPrevious/NextPrevious";
-import FullWidthImage from "../../components/FullWidthImage/FullWidthImage";
 
 function StoryTale() {
   return (
