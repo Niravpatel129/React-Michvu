@@ -7,7 +7,7 @@ import ScrollIntoView from "react-scroll-into-view";
 function Navbar() {
   const location = useLocation();
 
-  const handleNavigateToContact = e => {
+  const handleNavigateToContact = (e) => {
     if (location.pathname === "/") {
       e.preventDefault();
     }
@@ -23,7 +23,7 @@ function Navbar() {
       <ScrollIntoView selector="#contact">
         <a
           href="/#contact"
-          onClick={e => handleNavigateToContact(e)}
+          onClick={(e) => handleNavigateToContact(e)}
           style={{ textDecoration: "none" }}
         >
           <h2>CONTACT</h2>

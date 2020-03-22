@@ -49,9 +49,9 @@ function StoryTale() {
             the story selection page.
             <br></br>
             <br></br>
-            The app keeps track of what’s being read and listens for key
-            words. When a pre-specified keyword is said (e.g. "cow"), a relevant
-            3D model appears in AR to which the users will be able to interact
+            The app keeps track of what’s being read and listens for key words.
+            When a pre-specified keyword is said (e.g. "cow"), a relevant 3D
+            model appears in AR to which the users will be able to interact
             with.
             <br></br>
             <br></br>

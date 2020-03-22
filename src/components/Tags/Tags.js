@@ -11,7 +11,7 @@ function Tags({
   tag3title,
   tag3titlep,
   id,
-  noborder
+  noborder,
 }) {
   const h3Ref1 = useRef(null);
   const h3Ref2 = useRef(null);

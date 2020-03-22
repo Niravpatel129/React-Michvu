@@ -8,7 +8,7 @@ function ProjectHeader({
   tag1sub,
   tag2sub,
   tag3sub,
-  tag4sub
+  tag4sub,
 }) {
   return (
     <div className="ProjectHeader">

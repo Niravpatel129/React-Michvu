@@ -13,16 +13,16 @@ function NextPrevious({ next, prev, nextSrc, prevSrc }) {
     cursorRef.current.style.backgroundImage = `url(${nextSrc})`;
   }, [nextSrc]);
 
-  const handleMouseMove = e => {
+  const handleMouseMove = (e) => {
     TweenLite.to(cursorRef.current, 0.1, {
       css: {
-        left: e.pageX
+        left: e.pageX,
       },
-      delay: 0.03
+      delay: 0.03,
     });
   };
 
-  const handleMouseEnter = e => {
+  const handleMouseEnter = (e) => {
     console.log(e.target.innerText);
 
     if (e.target.innerText === "Next") {
@@ -34,8 +34,8 @@ function NextPrevious({ next, prev, nextSrc, prevSrc }) {
     console.log("mouse enter");
     TweenLite.to(cursorRef.current, 1, {
       css: {
-        opacity: "1"
-      }
+        opacity: "1",
+      },
     });
   };
 
@@ -44,8 +44,8 @@ function NextPrevious({ next, prev, nextSrc, prevSrc }) {
 
     TweenLite.to(cursorRef.current, 1, {
       css: {
-        opacity: "0"
-      }
+        opacity: "0",
+      },
     });
   };
 

@@ -13,7 +13,7 @@ function HomePageTitle({ src, src2 }) {
     }
   };
 
-  const handleScroll = e => {
+  const handleScroll = (e) => {
     let scroll = window.pageYOffset;
     image.current.style.transform = "rotate(" + scroll + "deg";
   };
