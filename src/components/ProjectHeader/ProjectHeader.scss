@@ -1,0 +1,58 @@
+.ProjectHeader {
+  padding: 0 10%;
+  background-color: #222222;
+  display: flex;
+
+  @media (max-width: 600px) {
+    display: block;
+  }
+
+  padding: 10%;
+  padding-bottom: 5%;
+
+  .titleBlock {
+    position: relative;
+    width: 150%;
+    @media (max-width: 600px) {
+      padding: 10% 0;
+    }
+    h1 {
+      position: relative;
+      z-index: 1;
+      color: white;
+      writing-mode: tb-rl;
+      transform: rotate(-180deg);
+      font-size: 7.5em;
+      font-weight: 100;
+    }
+
+    .imageContainer {
+      width: 45%;
+      min-width: 350px;
+      position: absolute;
+      top: 10%;
+      left: 19%;
+      transform: rotate(0deg);
+      @media (min-width: 1281px) {
+        transform: rotate(-30deg);
+        top: 1%;
+        left: 15%;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .types {
+    width: 100%;
+    h3 {
+      width: 100%;
+      padding: 5% 0;
+    }
+    p {
+      padding-bottom: 7%;
+    }
+  }
+}
