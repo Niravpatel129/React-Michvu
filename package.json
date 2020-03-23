@@ -7,7 +7,7 @@
     "@testing-library/react": "^10.0.1",
     "@testing-library/user-event": "^10.0.0",
     "animate.css": "^3.7.2",
-    "gsap": "^3.2.4",
+    "gsap": "^3.2.6",
     "node-sass": "^4.13.1",
     "react": "^16.13.1",
     "react-animate-on-scroll": "^2.1.5",
